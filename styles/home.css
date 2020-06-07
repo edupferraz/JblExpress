@@ -1,0 +1,244 @@
+/* Estilo Geral*/
+h2{
+    width: 200px;
+    padding: 15px;
+    margin: 70px auto;
+    text-align: center;
+    
+    border: 1px solid #FF3300;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+/* Estilo do header */
+#page-home header{
+
+    width: 100%;
+    height: 70px;
+    background-color: #F4F4F4;;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#page-home header .logo a span{
+    margin: 0 90px;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--primary-color);
+}
+
+#page-home header .items {
+    margin: 0 90px;
+}
+
+#page-home header .items li{
+    display: inline;
+    margin: 0 25px;
+}
+
+
+#page-home header a {
+
+    font-size: 16px;
+    line-height: 14px;
+/* identical to box height */
+    color: #000000;
+
+}
+
+/* Estilo do content*/
+
+
+#page-home .content{
+    width: 95%;
+    max-width: 1100px;
+    height: 100%;
+
+    margin: 0 auto;
+    
+}
+
+/* Estilo do banner */
+#page-home .banner{
+    height: 100vh;
+    width: 98.7vw;
+    background-color: rgb(167, 167, 167);
+}
+
+
+
+main .services {
+    margin: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main .services .services-item{
+    width: 250px;
+    height: 230px;
+    margin-bottom: 100px;
+
+    
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    
+}
+
+main .services .services-item .icon{
+
+    width: 90px;
+    height: 90px;
+
+    background: rgb(255, 255, 255);
+
+    border: 1px solid black;
+    border-radius: 50px;
+
+    margin: 10px auto;
+}
+
+main .services .services-item .icon i{
+
+    margin: 20px 25px;
+}
+
+main .services .services-item .container{
+
+    text-align: center;
+}
+
+main .services .services-item .container h3{
+
+    font-size: 27px;
+    color: var(--primary-color);
+}
+
+main .services .services-item .container p{
+    margin: 3px 10px;
+}
+
+/* Our services */
+main .services .our-services-item{
+    text-align: center;
+    color: #000;
+    margin: auto;
+    margin-top: 20px;
+    width: 260px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    
+}
+
+main .services .our-services-item .container{
+
+    margin: 20px 0;
+    
+}
+
+main .services .our-services-item i{
+
+    margin: 15px 0 30px 0;
+    
+}
+
+/* Footer */
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+footer .footer-title{
+
+    width: 350px;
+    height: 0px;
+
+    padding: 25px 40px 50px;
+    text-align: center;
+    margin-left: 4%;
+    background-color: var(--primary-color);
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid white;
+}
+
+
+footer h4{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+footer .footer-text{
+    width: 475px;
+    height: 320px;
+
+    background-color: #fff;
+
+    padding: 40px 0px;
+
+    border-radius: 8px ;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer .footer-text h5{
+    color: var(--primary-color);
+    display: inline;
+    margin: 50px;
+}
+
+footer .footer-text p{
+    margin: 27px 120px 37px 120px;
+}
+
+footer .address, footer .contact{
+
+    width: 50%;
+}   
+
+fieldset{
+    border: none;
+}
+
+fieldset .field-group{
+    padding: 0 50px;
+}
+
+form .field{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+
+    outline-color: var(--primary-color);
+
+    border-radius: 8px;
+
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+
