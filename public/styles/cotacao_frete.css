@@ -1,0 +1,175 @@
+/* Estilo Header */
+#page-login_validado header{
+
+    width: 100%;
+    height: 70px;
+    background-color: #F4F4F4;;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#page-login_validado header .logo a span{
+    margin: 0 90px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#page-login_validado header .items {
+    margin: 0 90px;
+}
+
+#page-login_validado header .items li{
+    display: inline;
+    margin: 0 25px;
+}
+
+
+#page-login_validado header a {
+
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #000000;
+
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+/* Estilo info */
+.info{
+    width: 100%;
+    margin: 40px;
+}
+
+.info h1{
+    font-size: 2.3em;
+    color: var(--primary-color);
+}
+
+.info p{
+    margin: 10px 40px;
+}
+
+/* Estilo Form */
+form{
+
+    padding: 64px;
+
+    border-radius: 10px;
+    margin-top: 50px;
+
+    max-width: 900px;
+
+    box-sizing: border-box;
+
+    margin: 50px auto;
+
+    border: 1px solid var(--primary-color);
+}
+
+form h2{
+    font-size: 36px;
+}
+
+form fieldset{
+    margin-top: 20px;
+    border: 0;
+}
+
+
+form legend{
+    margin: 50px 0px; 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+form legend h2{
+    font-size: 24px;
+}
+
+form legend span{
+    font-size: 15px;
+    
+}
+
+form .field{
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 24px;
+}
+
+form .field-group{
+    display: flex;
+    
+}
+
+form input, form select, form textarea{
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+
+    outline-color: var(--primary-color);
+
+    border-radius: 8px;
+
+}
+
+form select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Modo para referenciar atributo HTML sem a necessidade de uma class*/
+
+form .field-group .field + .field{
+    margin-left: 24px;
+}
+
+form .btn{
+
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 20px 20px 650px;
+    transition: 0.8s;
+}
+
+form .btn:hover{
+
+    background-color: white;
+    color: var(--primary-color);
+}
+
+/* Estilo Footer */
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}

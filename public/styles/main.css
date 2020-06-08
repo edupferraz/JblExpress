@@ -1,0 +1,30 @@
+:root{
+    --primary-color: #FF3300;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: var(--bg-color-grey);
+    -webkit-font-smoothing: antialised;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}

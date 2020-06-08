@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/cotacao_frete.css">
+
+    <script src="https://use.fontawesome.com/c10d167974.js"></script>
+</head>
+<body id="page-login_validado">
+
+    <header>
+
+        <div class="logo">
+            
+            <a href="index.html"> <span> JBL Express </span></a>
+
+        </div>
+
+        <div class="items">
+            
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="cotacao_frete.html">SERVIÇOS ONLINE</a></li>
+                <li><a href="#">CONTATO</a></li>           
+            </ul>
+            
+        </div>     
+
+
+    </header>
+    <div class="container">
+
+        <div class="info">
+            <h1>Cotação de frete </h1>
+            <p>Os itens com asterisco(*) são de preenchimento obrigatório</p>
+             
+        </div>
+
+        
+        <form action="">
+            
+            <fieldset>
+
+                    <legend>
+                        <h3> DADOS DO DESTINATÁRIO</h3>
+                    </legend>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="name">Data do embarque *</label>
+                            <input type="text" name="name" required="required">
+
+                        </div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="email">Nome ou Razão Social *</label>
+                            <input type="text" name="email" required="required">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="cpf">CPF *</label>
+                            <input type="text" name="cpf" required="required">
+
+                        </div>
+
+                    </div>
+
+                    <legend>
+                        <h3> DADOS DA CARGA</h3>
+                    </legend>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="material">Tipo de Material *</label>
+                            <input type="text" name="material" required="required">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="state">Estado *</label>
+                            <select name="uf" required="required">
+                                <option value="">Selecione o Estado</option>
+
+                            </select>
+
+                            <input type="hidden" name="state">
+
+                        </div>
+
+                        <div class="field">
+
+                            <label for="city">Cidade *</label>
+                            <select name="city" disabled="disabled" required="required">
+                                <option value="">Selecione a Cidade</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="peso">Peso total da carga (Kg) *</label>
+                            <input type="number" name="peso" required="required">
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="nf">Valor total da NF *</label>
+                            <input type="number" name="nf" placeholder="R$ 0,00"required="required">
+                        </div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="qtdVolumes">Quantidade de volumes *</label>
+                            <input type="text" name="qtdVolumes" required="required">
+                        </div>
+
+                    </div>
+
+                    <legend>
+                        <h3>DADOS DO(S) VOLUMES(S)</h3>
+                    </legend>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="altura">Altura (m) *</label>
+                            <input type="number" name="altura" required="required">
+                        </div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="altura">Largura (m) *</label>
+                            <input type="number" name="altura" required="required">
+                        </div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <label for="altura">Comprimento (m) * </label>
+                            <input type="number" name="altura" required="required">
+                        </div>
+
+                    </div>
+
+                    <legend>
+                        <h3>OBSERVAÇÕES</h3>
+                    </legend>
+
+                    <div class="field-group">
+
+                        <div class="field">
+
+                            <textarea name="obs" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn btn1">Enviar</button>
+
+            
+        </form>        
+
+        <footer>
+        
+            <span>Copyright &copy; JBL Express</span>
+        </footer>
+
+        
+    </div>
+</body>
+</html>
