@@ -96,6 +96,8 @@ main .services .our-services-item{
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 
+    transition: 1s;
+
     
 }
 
@@ -141,7 +143,7 @@ footer h4{
 
 footer .footer-text{
     width: 475px;
-    height: 320px;
+    height: 350px;
 
     background-color: #fff;
 
@@ -154,12 +156,14 @@ footer .footer-text{
 footer .footer-text h5{
     color: var(--primary-color);
     display: inline;
-    margin: 50px;
+    margin: 60px;
 }
 
 footer .footer-text p{
     margin: 27px 120px 37px 120px;
 }
+
+
 
 footer .address, footer .contact{
 
@@ -179,7 +183,7 @@ form .field{
     display: flex;
     flex-direction: column;
 
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 
 form input, form textarea{
@@ -200,6 +204,21 @@ form label{
     margin-bottom: 8px;
 }
 
+form button{
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    transition: 0.8s;
+    margin: 0px 0px 10px 285px;
+}
+
+form button:hover{
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
 /* Estilo Footer */
 .footerCopy {
     text-align: center;
@@ -217,12 +236,17 @@ form label{
 
 .services a .icon{
     background-color: white;
-    transition: 0.5s;
+    transition: 1s;
 }
 .services a:hover .icon{
     color: #fff;
     background-color: var(--primary-color);
 }
 
+
+/* Efeito hover no our-services*/
+.our-services-item:hover{
+    padding: 10px;
+}
 
 

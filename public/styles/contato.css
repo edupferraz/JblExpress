@@ -27,7 +27,7 @@
 
 .container .footer-text{
     width: 475px;
-    height: 320px;
+    height: 350px;
 
     background-color: #fff;
 
@@ -38,9 +38,10 @@
 }
 
 .container .footer-text h5{
+    font-size: 19px;
     color: var(--primary-color);
     display: inline;
-    margin: 50px;
+    margin: 60px;
 }
 
 .container .footer-text p{
@@ -79,6 +80,21 @@ form input, form textarea{
 
     border-radius: 8px;
 
+}
+
+form button{
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    transition: 0.8s;
+    margin: 0px 0px 10px 285px;
+}
+
+form button:hover{
+    padding: 12px 22px;
+    cursor: pointer;
 }
 
 form label{

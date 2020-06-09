@@ -89,6 +89,21 @@ form .field a{
     color: var(--primary-color);
 }
 
+form button{
+    padding: 7px 25px;
+    margin-left: 230px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 1s;
+}
+
+form button:hover{
+    padding: 9px 30px;
+
+}
+
 #nao-cadastrado{
     margin: 0px auto 300px;
 }
@@ -111,5 +126,5 @@ form .field a{
 
 footer{
     text-align: center;
-    margin: 20px;
+    margin-top: 50px;
 }
