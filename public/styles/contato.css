@@ -1,0 +1,92 @@
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 30px 100px;
+}
+
+.footer-title{
+
+    width: 350px;
+    height: 0px;
+
+    padding: 25px 40px 50px;
+    text-align: center;
+    margin-left: 4%;
+    background-color: var(--primary-color);
+    border-radius: 8px 8px 0px 0px;
+}
+
+
+.container h4{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.container .footer-text{
+    width: 475px;
+    height: 320px;
+
+    background-color: #fff;
+
+    padding: 40px 0px;
+
+    border-radius: 8px ;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container .footer-text h5{
+    color: var(--primary-color);
+    display: inline;
+    margin: 50px;
+}
+
+.container .footer-text p{
+    margin: 27px 120px 37px 120px;
+}
+
+.container .address, .container .contact{
+
+    width: 50%;
+}   
+
+fieldset{
+    border: none;
+}
+
+fieldset .field-group{
+    padding: 0 50px;
+}
+
+form .field{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+
+    outline-color: var(--primary-color);
+
+    border-radius: 8px;
+
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}

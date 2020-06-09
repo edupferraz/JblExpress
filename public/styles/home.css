@@ -13,46 +13,6 @@ h5{
     font-size: 1.2rem;
 }
 
-/* Estilo do header */
-#page-home header{
-
-    width: 100%;
-    height: 70px;
-    background-color: #F4F4F4;;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-#page-home header .logo a span{
-    margin: 0 90px;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-#page-home header .items {
-    margin: 0 90px;
-}
-
-#page-home header .items li{
-    display: inline;
-    margin: 0 25px;
-}
-
-
-#page-home header a {
-
-    font-size: 16px;
-    line-height: 14px;
-
-    color: #000000;
-
-}
-
 /* Estilo do content*/
 
 
@@ -170,7 +130,6 @@ footer .footer-title{
     margin-left: 4%;
     background-color: var(--primary-color);
     border-radius: 8px 8px 0px 0px;
-    position: absolute;
 }
 
 
@@ -245,6 +204,24 @@ form label{
 .footerCopy {
     text-align: center;
     margin: 30px;
+}
+
+
+/* Efeito Hover nos services */
+.services a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+
+}
+
+.services a .icon{
+    background-color: white;
+    transition: 0.5s;
+}
+.services a:hover .icon{
+    color: #fff;
+    background-color: var(--primary-color);
 }
 
 
